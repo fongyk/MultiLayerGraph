@@ -39,23 +39,23 @@ Aggregate information of neibor nodes to produce a new feature representation fo
 
 ## parameter instruction
 
-- knn: number of neighbors to aggregate.
+- `knn`: number of neighbors to aggregate.
 
-- suffix: feature type, vgg-rmac-feature (512-d) and res101-gem-feature (2048-d) are used.
+- `suffix`: feature type, vgg-rmac-feature (512-d) and res101-gem-feature (2048-d) are used.
 
-- train_num: number of training nodes. Training loss: cross entropy/rank loss.
+- `train_num`: number of training nodes. Training loss: cross entropy/rank loss.
 
-- aggre_type: mean aggregation of max aggregation.
+- `aggre_type`: mean aggregation of max aggregation.
 
-- embed_dims: dims of input-hidden-...-output layers.
+- `embed_dims`: dims of input-hidden-...-output layers.
 
-- combine: concate features from all layers.
+- `combine`: concate features from all layers.
 
-- activate: use non-lineaer activation function on feature.
+- `activate`: use non-lineaer activation function on feature.
 
-- residue: residue connection from former layer.
+- `residue`: residue connection from former layer.
 
-- weighted: weighted aggregation based on feature similairty.
+- `weighted`: weighted aggregation based on feature similairty.
 
 A typical setting:
 
