@@ -2,7 +2,7 @@
 
 ## viewpoint
 
-Aggregate information of neibor nodes to produce a new feature representation for each node. Tested in image retrieval task.
+Aggregate information of neighbor nodes to produce a new feature representation for each node. Tested in image retrieval task.
 
 ## reference
 
@@ -10,7 +10,7 @@ Aggregate information of neibor nodes to produce a new feature representation fo
 
 ## framework
 
-![framework](framework.jpg)
+<img src="framework.jpg" width="800" align=center />
 
 ## platform
 
