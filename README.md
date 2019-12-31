@@ -18,6 +18,12 @@ Aggregate information of neighbor nodes to produce a new feature representation 
 
 - Python 3.7.5
 
+- Visdom 0.1.8.9
+
+- Tensorboard 2.0.0
+
+- Tensorflow 2.0.0
+
 ## datasets
 
 ### testing
