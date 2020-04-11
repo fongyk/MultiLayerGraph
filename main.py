@@ -400,31 +400,8 @@ if __name__ == "__main__":
 
     print("< < < < < < < < < < < Graph Neural NetWork > > > > > > > > > >")
     print("= = = = = = = = = = = PARAMETERS SETTING = = = = = = = = = = =")
-    print("epoch_num:", args.epoch_num)
-    print("step_size:", args.step_size)
-    print("learning_rate_decay:", args.learning_rate_decay)
-    print("batch_size:", args.batch_size)
-    print("train_num:", args.train_num)
-    print("learning_rate:", args.learning_rate)
-    print("weight_decay:", args.weight_decay)
-    print("suffix:", args.suffix)
-    print("aggre_type:", args.aggre_type)
-    print("knn:", args.knn)
-    print("aggre_layer_num:", args.aggre_layer_num)
-    print("embed_dims:", args.embed_dims)
-    print("combine:", args.combine)
-    print("concate:", args.concate)
-    print("activate:", args.activate)
-    print("residue:", args.residue)
-    print("weighted:", args.weighted)
-    print("use_cuda:", args.use_cuda)
-    if args.use_cuda:
-        print("gpu:", os.environ['CUDA_VISIBLE_DEVICES'])
-    print("mode:", args.mode)
-    if args.mode != 'class':
-        print("margin:", args.margin)
-        print("omega:", args.omega)
-
+    for k, v in vars(args).items():
+        print k, ":", v
     print("= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =")
 
     print("training ......")
